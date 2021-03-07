@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    width: 350px;
+    height: 500px;
+    margin-top: 10vh;
+    background:black;
+    position: relative;
+}   
+.input{
+    padding: 15px 60px;
+    margin: 20px 30px;
+    position: absolute;
+ }
+.clear{
+    position: absolute;
+    right: 40px;
+    top: 100px;
+    padding: 10px;
+    background-color: darkorange;
+    color: lavender;
+    border-radius: 50%;
+}
+.numbers{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: absolute;
+    top: 150px;
+    left: 30px;
+}
+.number{
+    padding: 15px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.cal{
+    position: absolute;
+    border: none;
+    width: 0px;
+    height: 0px; 
+    color: royalblue;
+    transform: scale(5);
+}
+.plus{
+    right: 85px;
+    top: 150px; 
+}
+.mois{
+    right: 78px;
+    top: 210px; 
+}
+.foix{
+    right: 80px;
+    top: 290px; 
+}
+.sur{
+    right: 82px;
+    top: 350px; 
+}
+.egale{
+    position: absolute;
+    border: none;
+    width: 100px;
+    height: 14px; 
+    background-color: royalblue;
+    color:black;
+    right: 125px;
+    top: 450px; 
+    border-radius: 5px;
+    transform: scale(3);
+}
+.left, .right{
+    padding: 7px;
+    margin: 3px;
+    border-radius: 20px;
+    position: absolute;
+}
+.left{
+    bottom: 87px;
+    right: 165px;
+}
+.right{
+    bottom: 87px;
+    right: 135px;
+}
